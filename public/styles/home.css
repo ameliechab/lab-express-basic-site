@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Montserrat:wght@300;400;500;700&family=Noto+Sans:wght@300;600;700&display=swap");
+
+body {
+  background-image: linear-gradient(to top left, #6930c3, #64dfdf);
+  font-family: Montserrat;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.img {
+  background-image: url("./images/mylene-farmer.jpg");
+  height: 60vh;
+  width: 25vw;
+  background-size: cover;
+  margin: 2rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  background-color: none;
+  padding: 1rem 3rem;
+}
